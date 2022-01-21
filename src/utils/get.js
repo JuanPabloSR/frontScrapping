@@ -6,7 +6,7 @@ export const getCatalogo = (id) => (dispatch) => {
 
   const options = {
     method: 'GET',
-    url: 'http://localhost:8080/api/catalogo/{id}'
+    url: `http://localhost:8080/api/catalogo/${id}`
   }
 
   axios.request(options).then(function (response) {
