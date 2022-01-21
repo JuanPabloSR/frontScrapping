@@ -8,7 +8,7 @@ function Catalogs () {
   const { isLoading, catalogs, error } = useSelector(state => state.catalogs)
 
   useEffect(() => {
-    dispatch(getCatalogo('bbbb'))
+    dispatch(getCatalogo('catalogo1'))
   }, [])
 
   useEffect(() => {
